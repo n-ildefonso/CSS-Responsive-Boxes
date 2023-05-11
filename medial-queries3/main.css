@@ -1,3 +1,58 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+ .a {
+  background-color: red;
+  width: 100vw;
+  flex-grow: 2;
+ }
+
+ .b {
+  background-color: blue;
+  width: 33vw;
+  flex-grow: 2;
+ }
+
+ .c {
+  background-color: green;
+  width: 33vw;
+  flex-grow: 2;
+ }
+
+ .d {
+  background-color: yellow;
+  width: 33vw;
+  flex-grow: 2;
+ }
+
+ .e {
+  background-color: pink;
+  width: 33vw;
+  flex-grow: 2;
+ }
+
+  .f {
+    background-color:purple;
+    width: 33vw;
+    flex-grow: 2;
+   }
+
+   .g {
+    background-color: brown;
+    width: 33vw;
+    flex-grow: 2;
+   }
+
+   .h {
+    background-color:orange;
+    width: 100vw;
+    flex-grow: 4;
+   }

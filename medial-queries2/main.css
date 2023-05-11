@@ -1,3 +1,46 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+ .a {
+  background-color: red;
+  width: 100vw;
+  flex-grow: 2;
+ }
+
+ .b {
+  background-color: blue;
+  width: 100vw;
+  flex-grow: 4;
+ }
+
+ .c {
+  background-color: green;
+  width: 20vw;
+  flex-grow: 2;
+ }
+
+ .d {
+  background-color: yellow;
+  width: 20vw;
+  flex-grow: 2;
+ }
+
+ .e {
+  background-color: pink;
+  width: 20vw;
+  flex-grow: 2;
+ }
+
+  .f {
+    background-color:purple;
+    width: 100vw;
+    flex-grow: 2;
+   }
